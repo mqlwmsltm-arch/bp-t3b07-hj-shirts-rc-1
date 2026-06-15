@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>합정 셔츠룸 정보 | 브로들이 알려주는 모든 것</title>
+    <meta name="description" content="합정 셔츠룸, 고민된다면? 브로들이 직접 경험한 리얼한 후기와 팁, 분위기 좋은 셔츠룸 추천 리스트. 전화 한 통이면 바로 확인 가능!">
+    <meta name="keywords" content="합정 셔츠룸, 합정 셔츠룸 추천, 합정 유흥, 합정룸, 셔츠룸 후기, 합정술집">
+    <meta name="bpaas-design-system" content="midnight-glass">
+    <meta name="bpaas-design-theme" content="kr-midnight-glass">
+    <link rel="canonical" href="https://t3b07-hj-shirts-rc-1.vercel.app/">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="합정 셔츠룸 추천 | 브로들의 리얼 후기 & 가이드">
+    <meta property="og:description" content="합정 셔츠룸, 고민된다면? 브로들이 직접 경험한 리얼한 후기와 팁, 분위기 좋은 셔츠룸 추천 리스트.">
+    <meta property="og:image" content="https://t3b07-hj-shirts-rc-1.vercel.app/og-image.jpg">
+    <meta property="og:url" content="https://t3b07-hj-shirts-rc-1.vercel.app/">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="합정 셔츠룸 추천 | 브로들의 리얼 후기 & 가이드">
+    <meta name="twitter:description" content="합정 셔츠룸, 고민된다면? 브로들이 직접 경험한 리얼한 후기와 팁, 분위기 좋은 셔츠룸 추천 리스트.">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: 'Pretendard', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            background: #0a0e1a;
+            color: #e8eaf0;
+            line-height: 1.7;
+            -webkit-font-smoothing: antialiased;
+            overflow-x: hidden;
+        }
+        .wrapper {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 0 24px;
+        }
+        h1, h2, h3, h4 {
+            font-weight: 700;
+            letter-spacing: -0.02em;
+            color: #f0f2f8;
+        }
+        h1 {
+            font-size: 2.6rem;
+            line-height: 1.2;
+            margin-bottom: 20px;
+            background: linear-gradient(135deg, #f0f2f8 0%, #b8c4e0 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+        h2 {
+            font-size: 1.8rem;
+            margin: 48px 0 16px;
+            padding-bottom: 8px;
+            border-bottom: 2px solid rgba(180, 200, 255, 0.15);
+        }
+        h3 {
+            font-size: 1.3rem;
+            margin: 32px 0 12px;
+            color: #c8d0e8;
+        }
+        p {
+            margin-bottom: 20px;
+            font-size: 1.05rem;
+            color: #c8cedc;
+        }
+        a {
+            color: #8ab4ff;
+            text-decoration: none;
+            transition: color 0.2s;
+            border-bottom: 1px solid rgba(138, 180, 255, 0.3);
+        }
+        a:hover {
+            color: #b8d4ff;
+            border-bottom-color: #8ab4ff;
+        }
+        .hero + .content p:first-of-type::first-letter {
+            font-size: 3.2rem;
+            font-weight: 700;
+            float: left;
+            margin-right: 12px;
+            margin-top: 4px;
+            line-height: 1;
+            color: #8ab4ff;
+            font-family: 'Georgia', serif;
+        }
+        .hero {
+            min-height: 60vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            background: linear-gradient(180deg, #0a0e1a 0%, #111827 100%);
+            padding: 80px 24px 60px;
+            position: relative;
+        }
+        .hero::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: radial-gradient(circle at 30% 40%, rgba(138, 180, 255, 0.06) 0%, transparent 70%);
+            pointer-events: none;
+        }
+        .hero h1 {
+            font-size: 3rem;
+            margin-bottom: 16px;
+        }
+        .hero p {
+            font-size: 1.15rem;
+            color: #a0aac4;
+            max-width: 600px;
+        }
+        .content {
+            padding: 40px 0 80px;
+        }
+        .card-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 24px;
+            margin: 32px 0;
+        }
+        .card {
+            background: linear-gradient(145deg, #111827, #0d1321);
+            border: 1px solid rgba(180, 200, 255, 0.08);
+            border-radius: 16px;
+            padding: 28px 24px;
+            transition: transform 0.2s, border-color 0.2s;
+        }
+        .card:hover {
+            transform: translateY(-4px);
+            border-color: rgba(138, 180, 255, 0.25);
+        }
+        .card h3 {
+            margin-top: 0;
+            margin-bottom: 12px;
+            font-size: 1.2rem;
+        }
+        .card p {
+            font-size: 0.95rem;
+            margin-bottom: 0;
+            color: #b0b8cc;
+        }
+        .faq-item {
+            border-bottom: 1px solid rgba(180, 200, 255, 0.08);
+            padding: 20px 0;
+        }
+        .faq-item:last-child {
+            border-bottom: none;
+        }
+        .faq-item h3 {
+            margin: 0 0 8px;
+            font-size: 1.1rem;
+            color: #d0d8ec;
+        }
+        .faq-item p {
+            margin: 0;
+            font-size: 0.98rem;
+            color: #a8b0c8;
+        }
+        .tel-link {
+            display: inline-block;
+            background: linear-gradient(135deg, #1a2744, #0f1a30);
+            color: #8ab4ff;
+            font-weight: 700;
+            padding: 14px 36px;
+            border-radius: 50px;
+            border: 1px solid rgba(138, 180, 255, 0.25);
+            font-size: 1.2rem;
+            transition: all 0.3s;
+            text-decoration: none;
+            margin: 16px 0;
+        }
+        .tel-link:hover {
+            background: linear-gradient(135deg, #1e2f52, #141f3a);
+            border-color: #8ab4ff;
+            transform: scale(1.02);
+        }
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 16px 24px;
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            z-index: 100;
+            background: rgba(10, 14, 26, 0.92);
+            backdrop-filter: blur(12px);
+            border-bottom: 1px solid rgba(180, 200, 255, 0.06);
+        }
+        nav .logo {
+            font-weight: 700;
+            font-size: 1.1rem;
+            color: #e8eaf0;
+            letter-spacing: -0.02em;
+        }
+        nav ul {
+            display: flex;
+            list-style: none;
+            gap: 28px;
+            align-items: center;
+        }
+        nav ul li a {
+            color: #a0aac4;
+            font-size: 0.95rem;
+            border-bottom: none;
+            transition: color 0.2s;
+        }
+        nav ul li a:hover {
+            color: #8ab4ff;
+        }
+        .hamburger {
+            display: none;
+            flex-direction: column;
+            gap: 5px;
+            cursor: pointer;
+            background: none;
+            border: none;
+            padding: 4px;
+        }
+        .hamburger span {
+            width: 24px;
+            height: 2px;
+            background: #c8cedc;
+            border-radius: 2px;
+            transition: 0.3s;
+        }
+        @media (max-width: 768px) {
+            .wrapper {
+                padding: 0 16px;
+            }
+            h1 {
+                font-size: 2rem;
+            }
+            h2 {
+                font-size: 1.5rem;
+            }
+            .hero h1 {
+                font-size: 2.2rem;
+            }
+            .hero {
+                min-height: 50vh;
+                padding: 100px 16px 40px;
+            }
+            nav ul {
+                display: none;
+                position: absolute;
+                top: 100%;
+                left: 0;
+                right: 0;
+                background: rgba(10, 14, 26, 0.98);
+                flex-direction: column;
+                padding: 20px 24px;
+                gap: 16px;
+                border-bottom: 1px solid rgba(180, 200, 255, 0.08);
+            }
+            nav ul.active {
+                display: flex;
+            }
+            .hamburger {
+                display: flex;
+            }
+            .card-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <div class="logo">브로 셔츠룸</div>
+        <button class="hamburger" onclick="document.querySelector('nav ul').classList.toggle('active')">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+        <ul>
+            <li><a href="/">홈</a></li>
+            <li><a href="/info">정보</a></li>
+            <li><a href="/review">후기</a></li>
+            <li><a href="/guide">가이드</a></li>
+            <li><a href="tel:010-1234-5678" class="tel-link" style="padding: 8px 20px; font-size: 0.9rem;">전화 문의</a></li>
+        </ul>
+    </nav>
+
+    <section class="hero">
+        <h1>합정 셔츠룸,<br>이런 정보가 궁금했어</h1>
+        <p>처음 가는 브로들을 위한 완벽 가이드. 가격, 분위기, 팁까지 다 알려준다.</p>
+    </section>
+
+    <div class="content">
+        <div class="wrapper">
+            <p>야, 형. 합정 셔츠룸 처음 가려니까 뭔가 막막하지? 나도 그랬어. 근데 한 번 잘 알아보고 가니까 완전 달라. 이 페이지에서는 내가 직접 부딪히면서 알게 된 꿀팁들을 다 풀어놓을게. 가격부터 분위기, 심지어 어떤 자세로 임해야 하는지까지 — 진짜 브로들이 원하는 정보만 쏙쏙.</p>
+
+            <h2>합정 셔츠룸, 기본이 궁금하다면?</h2>
+            <p>셔츠룸이 뭔지 모르는 브로는 없겠지만, 합정 지역만의 특징이 있어. 홍대나 강남보다 아늑하고, 가격도 좀 더 합리적인 편이야. 내가 여러 군데 돌아다녀본 결과, 합정 셔츠룸은 '부담 없이 즐기기'에 진짜 최적화된 곳이더라고. 시스템 자체는 비슷하지만, 분위기가 훨씬 편안해. 처음 가는 브로들한테는 이만한 곳이 없어.</p>
+            
+            <div class="card-grid">
+                <div class="card">
+                    <h3>💰 가격대</h3>
+                    <p>보통 1시간 기준 20~30만원 선. 시간대나 업소에 따라 차이가 있으니 전화로 미리 확인하는 게 좋아. 내 경험상 25만원 정도면 무난하게 즐길 수 있었어.</p>
+                </div>
+                <div class="card">
+                    <h3>🎯 분위기</h3>
+                    <p>합정 특유의 감성적인 조명과 인테리어가 돋보여. 너무 시끄럽지 않고, 대화하기 좋은 수준의 음악이 흘러. 비즈니스 자리보다는 소규모 모임에 딱이야.</p>
+                </div>
+                <div class="card">
+                    <h3>📍 위치 접근성</h3>
+                    <p>합정역에서 도보 5분 거리 중심. 주차는 어렵다는 게 단점이지만, 대중교통이 워낙 좋아서 부담 없어. 나는 항상 지하철 타고 가는 중.</p>
+                </div>
+            </div>
+
+            <h2>브로가 직접 겪은 꿀팁 3가지</h2>
+            <p>자, 이제 진짜 도움될 얘기만 할게. 첫 번째, <strong>예약은 무조건 해야 해</strong>. 워크인으로 갔다가 30분 기다린 적 있는데, 진짜 시간 아까웠어. 두 번째, <strong>처음 가면 시스템을 꼭 물어봐</strong>. 업소마다 서비스 범위가 조금씩 다르니까. 세 번째, <strong>분위기 좋은 자리는 미리 요청</strong>하는 게 좋아. 나는 항상 구석쪽 조용한 자리를 부탁하는 편이야.</p>
+            <p>그리고 중요한 거 하나! <strong>술값은 별도인 경우가 많아</strong>. 패키지에 포함된 경우도 있으니까, 결제 전에 꼭 확인하고. 나는 처음에 이걸 몰라서 깜짝 놀랐던 적이 있어. 브로들은 그런 실수 하지 마라.</p>
+
+            <h2>합정 셔츠룸, 이렇게 준비해</h2>
+            <p>옷차림은 깔끔한 비즈니스 캐주얼이 가장 무난해. 너무 정장처럼 딱딱하거나, 반대로 너무 편한 트레이닝복은 피하는 게 좋아. 내 경험상 <strong>셔츠나 니트에 슬랙스</strong>가 가장 반응이 좋더라고. 신발은 깔끔한 스니커즈나 로퍼면 완벽하고.</p>
+            <p>그리고 준비물로는 <strong>신분증은 필수</strong>야. 간혹 깜빡하는 브로들이 있는데, 입장 자체가 안 될 수 있어. 현금도 조금 준비하면 좋고. 카드 되는 곳이 대부분이지만, 팁이나 추가 서비스는 현금이 편할 때가 있거든.</p>
+
+            <h2>자주 묻는 질문 (FAQ)</h2>
+            <div class="faq-item">
+                <h3>셔츠룸 처음인데, 어떻게 행동해야 하나요?</h3>
+                <p>너무 긴장할 필요 없어. 기본적인 매너만 지키면 돼. 여성분들에게 존중하는 태도, 과도한 스킨십은 피하기, 그리고 대화를 자연스럽게 이끌어가는 게 중요해. 나는 처음에 긴장해서 말문이 막혔는데, 웃으면서 가볍게 인사하는 것만으로도 충분하더라고.</p>
+            </div>
+            <div class="faq-item">
+                <h3>합정에서 가장 분위기 좋은 셔츠룸은?</h3>
+                <p>내가 가본 곳 중에서는 <strong>더블유셔츠</strong>랑 <strong>라운지오</strong>가 제일 좋았어. 더블유는 인테리어가 고급스럽고, 라운지오는 직원분들이 친절해서 부
+</body>
+</html>
